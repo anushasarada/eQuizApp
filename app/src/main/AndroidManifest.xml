@@ -16,12 +16,18 @@
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
-        <activity android:name=".LoginActivity">
-        </activity>
-        <activity android:name=".SignUpActivity">
-        </activity>
-        <activity android:name=".MainActivity">
-        </activity>
+        <activity android:name=".LoginActivity"/>
+        <activity android:name=".SignUpActivity"/>
+        <activity android:name=".MainActivity"/>
+        <activity android:name=".AnalysisActivity"/>
+        <activity android:name=".AnswersActivity"/>
+        <activity android:name=".GroupDetailActivity"/>
+        <activity android:name=".GroupsActivity"/>
+        <activity android:name=".ManageCreditsActivity"/>
+        <activity android:name=".MyCoursesActivity"/>
+        <activity android:name=".ProfileActivity"/>
+        <activity android:name=".QuizActivity"/>
+        <activity android:name=".ResultActivity"/>
     </application>
 
 </manifest>
