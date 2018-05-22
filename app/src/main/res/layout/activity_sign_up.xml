@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/signUp_username_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Username:"/>
+
+    <EditText
+        android:id="@+id/signUp_username_edittext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Enter your username"
+        app:layout_constraintLeft_toRightOf="@id/signUp_username_text"/>
+
+    <TextView
+        android:id="@+id/signUp_phne_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Phone:"
+        app:layout_constraintTop_toBottomOf="@id/signUp_username_text"/>
+
+    <EditText
+        android:id="@+id/signUp_phne_edittext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Enter your phone number"
+        app:layout_constraintLeft_toRightOf="@id/signUp_username_edittext"
+        app:layout_constraintTop_toBottomOf="@id/signUp_username_edittext"/>
+
+    <TextView
+        android:id="@+id/signUp_password_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Password:"
+        app:layout_constraintTop_toBottomOf="@id/signUp_phne_text"/>
+
+    <EditText
+        android:id="@+id/signUp_pass_edittext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Enter your password"
+        app:layout_constraintLeft_toRightOf="@id/signUp_password_text"
+        app:layout_constraintTop_toBottomOf="@id/signUp_phne_edittext"/>
+
+    <TextView
+        android:id="@+id/signUp_cnf_pass_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Confirm password:"
+        app:layout_constraintTop_toBottomOf="@id/signUp_password_text"/>
+
+    <EditText
+        android:id="@+id/signUp_cnf_pass_edittext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Re-enter your password"
+        app:layout_constraintLeft_toRightOf="@id/signUp_cnf_pass_text"
+        app:layout_constraintTop_toBottomOf="@id/signUp_pass_edittext"/>
+
+    <Button
+        android:id="@+id/submit_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        app:layout_constraintTop_toBottomOf="@id/signUp_cnf_pass_edittext"
+        android:onClick="onSubmit"/>
+
+    <Button
+        android:id="@+id/google_signUp_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SignUp using Google"
+        app:layout_constraintTop_toBottomOf="@id/submit_btn"/>
+
+</android.support.constraint.ConstraintLayout>

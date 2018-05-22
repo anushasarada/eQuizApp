@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.equizapp.LoginActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="eQuiz"
+        android:id="@+id/app_name_text"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Username:"
+        android:id="@+id/username_text"
+        app:layout_constraintTop_toBottomOf="@id/app_name_text"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Enter your username"
+        android:id="@+id/username_edittext"
+        app:layout_constraintLeft_toRightOf="@id/username_text"
+        app:layout_constraintTop_toBottomOf="@id/app_name_text"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="password"
+        android:id="@+id/password_text"
+        app:layout_constraintTop_toBottomOf="@id/username_text"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Enter your password"
+        android:id="@+id/password_edittext"
+        app:layout_constraintLeft_toRightOf="@id/password_text"
+        app:layout_constraintTop_toBottomOf="@id/username_edittext"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:id="@+id/login_btn"
+        android:onClick="onLogin"
+        app:layout_constraintTop_toBottomOf="@id/password_edittext"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SignUp"
+        android:id="@+id/signUp_btn"
+        app:layout_constraintTop_toBottomOf="@id/login_btn"/>
+
+</android.support.constraint.ConstraintLayout>

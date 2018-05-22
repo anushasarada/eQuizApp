@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "40084926945",
+    "firebase_url": "https://equizapp-346ab.firebaseio.com",
+    "project_id": "equizapp-346ab",
+    "storage_bucket": "equizapp-346ab.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:40084926945:android:530eefacf9efb93c",
+        "android_client_info": {
+          "package_name": "com.example.android.equizapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "40084926945-innjen1g11i36s2bpm1b0bdmp12rmis6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.android.equizapp",
+            "certificate_hash": "fabdabbd779d9a2b212cbabb221cc597bbabd4c8"
+          }
+        },
+        {
+          "client_id": "40084926945-d5plduibnnvf24ds655c65cbsnmmioh1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBhS-1ISFZWsa1eu7n1LH_bC3J-eJl3f3o"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "40084926945-d5plduibnnvf24ds655c65cbsnmmioh1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
