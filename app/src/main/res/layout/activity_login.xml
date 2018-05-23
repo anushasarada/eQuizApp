@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:layout_margin="10dp"
-    tools:context="com.example.android.equizapp.LoginActivity">
+    tools:context="com.example.android.equizapp.Activity.LoginActivity">
 
     <ImageView
         android:layout_width="80dp"
@@ -74,7 +74,8 @@
         android:layout_height="wrap_content"
         android:text="SIGN UP FOR AN ACCOUNT?"
         android:gravity="center"
-        android:id="@+id/signUp_btn"
+        android:id="@+id/signUp_text"
+        android:onClick="onSignUp"
         android:layout_marginTop="20dp"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintTop_toBottomOf="@id/login_btn"/>

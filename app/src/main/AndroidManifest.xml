@@ -9,25 +9,25 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".SplashScreenActivity">
+        <activity android:name=".Activity.SplashScreenActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
 
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
-        <activity android:name=".LoginActivity"/>
-        <activity android:name=".SignUpActivity"/>
-        <activity android:name=".MainActivity"/>
-        <activity android:name=".AnalysisActivity"/>
-        <activity android:name=".AnswersActivity"/>
-        <activity android:name=".GroupDetailActivity"/>
-        <activity android:name=".GroupsActivity"/>
-        <activity android:name=".ManageCreditsActivity"/>
-        <activity android:name=".MyCoursesActivity"/>
-        <activity android:name=".ProfileActivity"/>
-        <activity android:name=".QuizActivity"/>
-        <activity android:name=".ResultActivity"/>
+        <activity android:name=".Activity.LoginActivity"/>
+        <activity android:name=".Activity.SignUpActivity"/>
+        <activity android:name=".Activity.MainActivity"/>
+        <activity android:name=".Activity.AnalysisActivity"/>
+        <activity android:name=".Activity.AnswersActivity"/>
+        <activity android:name=".Activity.QuizDetailActivity"/>
+        <activity android:name=".Activity.QuizListActivity"/>
+        <activity android:name=".Activity.ManageCreditsActivity"/>
+        <activity android:name=".Activity.MyCoursesActivity"/>
+        <activity android:name=".Activity.ProfileActivity"/>
+        <activity android:name=".Activity.QuizActivity"/>
+        <activity android:name=".Activity.ResultActivity"/>
     </application>
 
 </manifest>
