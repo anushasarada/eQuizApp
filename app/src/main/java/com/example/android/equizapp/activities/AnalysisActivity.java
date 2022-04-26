@@ -1,4 +1,4 @@
-package com.example.android.equizapp.Activity;
+package com.example.android.equizapp.activities;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;

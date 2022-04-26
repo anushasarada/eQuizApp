@@ -1,4 +1,4 @@
-package com.example.android.equizapp.Fragments;
+package com.example.android.equizapp.fragments;
 
 
 import android.os.Bundle;

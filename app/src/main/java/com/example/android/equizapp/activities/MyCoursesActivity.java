@@ -1,4 +1,4 @@
-package com.example.android.equizapp.Activity;
+package com.example.android.equizapp.activities;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;
@@ -10,11 +10,11 @@ import com.example.android.equizapp.R;
  * Created by sarada on 5/22/2018.
  */
 
-public class ResultActivity extends AppCompatActivity {
+public class MyCoursesActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_result);
+        setContentView(R.layout.activity_my_courses);
     }
 }

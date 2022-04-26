@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:layout_margin="10dp"
-    tools:context="com.example.android.equizapp.Activity.LoginActivity">
+    tools:context="com.example.android.equizapp.activities.LoginActivity">
 
     <ImageView
         android:layout_width="80dp"

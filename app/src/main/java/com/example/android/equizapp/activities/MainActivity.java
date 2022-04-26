@@ -1,4 +1,4 @@
-package com.example.android.equizapp.Activity;
+package com.example.android.equizapp.activities;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;
@@ -9,7 +9,7 @@ import android.support.design.widget.TabLayout.TabLayoutOnPageChangeListener;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 
-import com.example.android.equizapp.Adapters.MainTabsAdapter;
+import com.example.android.equizapp.adapters.MainTabsAdapter;
 import com.example.android.equizapp.R;
 
 import butterknife.BindView;

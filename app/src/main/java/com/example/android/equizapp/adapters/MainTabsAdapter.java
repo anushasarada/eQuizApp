@@ -1,11 +1,11 @@
-package com.example.android.equizapp.Adapters;
+package com.example.android.equizapp.adapters;
 
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentStatePagerAdapter;
 
-import com.example.android.equizapp.Fragments.QuizTypeListFragment;
-import com.example.android.equizapp.Fragments.SocialFragment;
+import com.example.android.equizapp.fragments.QuizTypeListFragment;
+import com.example.android.equizapp.fragments.SocialFragment;
 
 public class MainTabsAdapter extends FragmentStatePagerAdapter {
 
